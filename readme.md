@@ -30,7 +30,7 @@ The tradeoff is real too and worth being honest about. Lambda functions can be a
 
 ---
 
-## A few decisions I'd explain if asked
+## Design Decisions & Lessons Learned
 
 ### Why one big Lambda function instead of a bunch of small ones
 
