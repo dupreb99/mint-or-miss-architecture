@@ -20,7 +20,7 @@ For everything else the frontend sends a request to API Gateway. Searching for a
 
 Two more pieces run on their own without anyone using the app. EventBridge fires a Lambda function on a timer to refresh card prices and generate some static pages for search engines. Separately when someone emails the support address SES receives it and hands it off to a small Lambda that forwards it to my real inbox.
 
-### Why I built it this way: cost
+### Why I built it this way: Cost
 
 I'm one person building this. Not a funded company with a team and a budget. Traffic is small and unpredictable so I didn't want to pay for a server sitting there 24/7 waiting for someone to show up.
 
